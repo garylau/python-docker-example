@@ -6,3 +6,4 @@ RUN        pipenv install --deploy --dev
 ENV        SHELL=/bin/bash
 ENTRYPOINT ["pipenv", "run"]
 CMD        ["python"]
+CMD        ["ls -lart ./app"]
